@@ -28,8 +28,8 @@ public class HijriEvents {
 		};
 
 		public int compareTo(HijriCalendar o) {
-			if (month.getMonthAsNumber() > o.getMonth().getMonthAsNumber() || month.getMonthAsNumber() < o.getMonth().getMonthAsNumber() ) {
-				return month.getMonthAsNumber() - o.getMonth().getMonthAsNumber();
+			if (month.getMonthAsNumber() > o.get(HijriCalendar.MONTH)|| month.getMonthAsNumber() < o.get(HijriCalendar.MONTH) ) {
+				return month.getMonthAsNumber() - o.get(HijriCalendar.MONTH);
 			}else {
 				//months are equal, check days.
 				return day - o.get(HijriCalendar.DAY_OF_MONTH);
