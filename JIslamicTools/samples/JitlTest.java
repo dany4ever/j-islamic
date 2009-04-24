@@ -1,6 +1,6 @@
 
 import com.ahmedsoliman.devel.jislamic.DayPrayers;
-import com.ahmedsoliman.devel.jislamic.Jitl;
+import com.ahmedsoliman.devel.jislamic.JIslamic;
 import com.ahmedsoliman.devel.jislamic.Method;
 import com.ahmedsoliman.devel.jislamic.Prayer;
 import com.ahmedsoliman.devel.jislamic.astro.Dms;
@@ -26,7 +26,7 @@ public class JitlTest {
         
         Method m = Method.EGYPT_SURVEY.copy();
         //m.setRound(0);
-        Jitl itl = new Jitl(new Location(30.057100, 31.227200, 2, 0 ), m);        
+        JIslamic itl = new JIslamic(new Location(30.057100, 31.227200, 2, 0 ), m);        
         //itl.setCalendar(Calendar.getInstance());
         
         //Jitl itl = new Jitl(new Location(21.423333, 39.823333, 1, 1 ), Method.MUSLIM_LEAGUE);
