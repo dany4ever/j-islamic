@@ -11,22 +11,22 @@ import com.ahmedsoliman.devel.jislamic.astro.Utils;
 
 
 /**
- * This the main class of the JITL library. You can use static methods
- * to do qibla calculation but you will need to create a Jitl instance
+ * This the main class of the JIslamic library. You can use static methods
+ * to do qibla calculation but you will need to create a JIslamic instance
  * to calculate prayer times for a specific location, using a specified method.
  * 
  */
-public class Jitl {
+public class JIslamic {
 	
 	/**
-	 * minor version of jitl
+	 * minor version of JIslamic
 	 */
-	static final int VERSION_MINOR = 0;
+	static final int VERSION_MINOR = 3;
 	
 	/**
-	 * major version of jitl
+	 * major version of JIslamic
 	 */
-	static final int VERSION_MAJOR = 1;
+	static final int VERSION_MAJOR = 0;
 	
 	
 	/* This is Used for storing some formulae results between
@@ -40,13 +40,13 @@ public class Jitl {
 
 	
 	/**
-	 * Creates the jitl main class
+	 * Creates the JIslamic main class
 	 * @param loc the location
 	 * @param method the method used in the calculation. You can use
 	 *  predefined methods for example <code>Method.MUSLIM_LEAGUE</code> or creates
 	 *  your own personalized method.
 	 */
-	public Jitl(Location loc, Method method) {
+	public JIslamic(Location loc, Method method) {
 		this.loc = loc;
 		this.method = method;
 	}
@@ -773,16 +773,16 @@ public class Jitl {
 	}
 	
 	/**
-	 *  Major version of Jitl
-	 * @return Jitl major version
+	 *  Major version of JIslamic
+	 * @return JIslamic major version
 	 */
 	public static int getMajorVersion() {
 		return VERSION_MAJOR;
 	}
 	
 	/**
-	 *  Minor version of Jitl
-	 * @return Jitl minor version
+	 *  Minor version of JIslamic
+	 * @return JIslamic minor version
 	 */
 	public static int getMinorVersion() {
 		return VERSION_MINOR;

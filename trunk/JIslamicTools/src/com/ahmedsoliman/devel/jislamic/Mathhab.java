@@ -8,7 +8,7 @@ public class Mathhab {
 	}
 	
 	/**
-	 * Assr prayer shadow ratio: use Shaa'fi mathhab (default)
+	 * Assr prayer shadow ratio: use Shaa'fi (Maliki, Hanbali) mathhab (default)
 	 */
 	public static final Mathhab SHAAFI = new Mathhab();
 	
