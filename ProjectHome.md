@@ -1,0 +1,1 @@
+An open source library that provide prayer times calculations and hijri calendar support written in pure java, so it can run on all java platforms including android Dalvik
